@@ -1,15 +1,234 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Trendy Radiance</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </head>
-  <body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Trendy_radiance | Responsive Website Design</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+  <div class="landing" id="one">
+      <h4>Welcome to my page</h4>
+      <h2>Let us <span class="design">design</span> the future</h2>
+      <div class="row text-center mx-auto" style="width:500px;">
+        <div class="col-3">
+          <i id="x" class="fab fa-facebook-f"></i>
+        </div>
+        <div class="col-3">
+          <i id="x" class="fab fa-youtube"></i>
+        </div>
+        <div class="col-3">
+          <i id="x" class="fab fa-instagram"></i>
+        </div>
+        <div class="col-3">
+          <i id="x" class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container px-3">
+      <a class="navbar-brand" href="#">Trendy_radiance</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link active" href="#one">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#two">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#three">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#four">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#five">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#six">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  </body>
-</html>
+  <div class="about" id="two">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 id="heading">About</h2>
+        </div>
+        <div class="col-12 col-sm-6">
+          <img id="image" src="me.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-12 col-sm-6">
+
+            <div class="card">
+
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <h3>Hello</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <footer class="blockquote-footer"><cite title="Source Title">Siddhartha Nanda</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+   <div class="services" id="three">
+     <div class="container">
+       <div class="row">
+          <div class="h col-12">
+            <h3>Services</h3>
+          </div>
+          <div id="ser" class="col-12 col-sm-6 col-md-3">
+            <i class="fas fa-tv"></i>
+            <h3>Web design</h3>
+            <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+          </div>
+          <div id="ser" class="col-12 col-sm-6 col-md-3">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>App developer</h3>
+            <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+          </div>
+          <div id="ser" class="col-12 col-sm-6 col-md-3">
+            <i class="fab fa-python"></i>
+            <h3>Python developer</h3>
+            <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+          </div>
+          <div id="ser" class="col-12 col-sm-6 col-md-3">
+            <i class="fas fa-camera"></i>
+            <h3>Photographer</h3>
+            <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+          </div>
+       </div>
+     </div>
+
+   </div>
+   <div class="fixed-background">
+
+     <div class="fixed-wrap">
+       <div class="fixed">
+
+       </div>
+     </div>
+   </div>
+
+   <div class="projects" id="four">
+     <div class="container">
+       <div class="row justify-content-center" id="abc">
+         <div class="hh col-12">
+           <h3>Projects</h3>
+         </div>
+         <div id="pro" class="card col-12 col-md-5" style="width: 8rem;">
+           <img src="django.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+           </div>
+         </div>
+         <div id="pro" class="card col-12 offset-md-1 col-md-5" style="width: 8rem;">
+           <img src="django.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+           </div>
+         </div>
+         <div id="pro" class="card col-12 col-md-5" style="width: 8rem;">
+           <img src="django.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+           </div>
+         </div>
+         <div id="pro" class="card col-12 offset-md-1 col-md-5" style="width: 8rem;">
+           <img src="django.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Card title</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+           </div>
+         </div>
+       </div>
+     </div>
+
+   </div>
+   <div class="skills" id="five">
+     <div class="container">
+       <div class="row">
+         <div class="hhh col-12">
+           <h3>Skills</h3>
+         </div>
+         <div class="bars col-12">
+           <li>
+             <h5>Html</h5><span class="bar"><span class="html"></span></span>
+           </li>
+           <li>
+             <h5>css</h5><span class="bar"><span class="css"></span></span>
+           </li>
+           <li>
+             <h5>js</h5><span class="bar"><span class="js"></span></span>
+           </li>
+           <li>
+             <h5>django</h5><span class="bar"><span class="django"></span></span>
+           </li>
+           <li>
+             <h5>react</h5><span class="bar"><span class="react"></span></span>
+           </li>
+         </div>
+       </div>
+     </div>
+
+   </div>
+   <div class="contact" id="six">
+     <div class="container">
+       <form>
+         <div class="form-row">
+           <div class="hhhh col-12">
+             <h3>Contact</h3>
+           </div>
+           <div class="col-12 col-sm-6">
+             <label for="fname">First Name</label>
+             <input type="text" id="fname" class="form-control" placeholder="">
+           </div>
+           <div class="col-12 col-sm-6">
+             <label for="lname">Last Name</label>
+             <input type="text" id="lname" class="form-control" placeholder="">
+           </div>
+         </div>
+         <div class="form-row">
+          <div class="form-group col-12">
+             <label for="inputEmail4">Email</label>
+             <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+        <div class="form-row">
+         <div class="form-group col-12">
+            <label for="number">Phone number</label>
+            <input type="number" class="form-control" id="number">
+         </div>
+       </div>
+       <button type="submit" id="but" class="btn">contact</button>
+       </form>
+     </div>
+   </div>
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script type="text/javascript">
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+  </script>
+</body>
